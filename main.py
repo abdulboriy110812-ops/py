@@ -42,5 +42,5 @@ for i in student_score:
       student_sum+=i
 
 average = student_sum/student_count
-print(f"Studentlar soni {student_count}\nyigindi {student_sum}\nortacha {average}katta {student_max}\n\nkichik {student_min}")
+print(f"Studentlar soni {student_count}\nyigindi {student_sum}\nortacha {average}\nkatta {student_max}\nkichik {student_min}")
 
