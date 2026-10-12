@@ -25,13 +25,13 @@ student_sum = 0
 
 student_max = student_score[0]
 student_min = student_score[0]
-studnet_max_count = 0
+
 
 for i in student_score:
 
       if i > student_max:
          student_max = i
-         studnet_max_count +=1   
+         
             
       elif i < student_min:
          student_min = i  
@@ -42,5 +42,5 @@ for i in student_score:
       student_sum+=i
 
 average = student_sum/student_count
-print(f"Studentlar soni {student_count}\nyigindi {student_sum}\nortacha {average}katta {student_max}\neng katta sining soni {studnet_max_count}\nkichik {student_min}")
+print(f"Studentlar soni {student_count}\nyigindi {student_sum}\nortacha {average}katta {student_max}\n\nkichik {student_min}")
 
