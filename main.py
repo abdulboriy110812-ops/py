@@ -35,6 +35,7 @@ for i in student_score:
       print("C")
      else:    
       print("D") 
+      
 
       if i > student_max:
          student_max = i
