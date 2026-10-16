@@ -106,5 +106,6 @@ while True:
          break
     else:
        print("siz notogri son kiritingiz")
+       
 
 
